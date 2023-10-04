@@ -6,7 +6,7 @@ export default function Musikku() {
 
 
     return (
-        <div style={{backgroundColor: '#1c1c1c', fontFamily:'Futura Md'}}>
+        <body style={{backgroundColor: '#1c1c1c', fontFamily:'Futura Md'}}>
     <section className="text-white body-font">
         <div className="container px-5 py-10 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">
@@ -46,6 +46,6 @@ export default function Musikku() {
           </div>
         </div>
     </section>
-</div>
+</body>
     )
 }

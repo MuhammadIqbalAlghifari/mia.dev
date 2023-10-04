@@ -68,7 +68,7 @@ return (
 
                         <textarea name="message" cols="30" rows="10" className="message-down" placeholder="Enter your message"></textarea>
 
-                        <a className="btn4"><button id="Submit" type="submit">Send Message</button></a> 
+                        <button id="Submit" type="submit"><a className="btn4">Send Message</a></button> 
 
                     </div>
 
