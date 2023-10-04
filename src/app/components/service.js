@@ -61,7 +61,7 @@ function ServiceCard() {
 
                         <div className="right tersembunyi shadow-black shadow-2xl">
 
-                            <img src="card-icon-right.svg" className='inline-block mb-2' alt=""/>
+                            <img src="/card-icon-right.svg" className='inline-block mb-2' alt=""/>
 
                             <h2>Graphic Design</h2>
 
