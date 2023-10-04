@@ -1,4 +1,4 @@
-import next from 'next'
+/* eslint-disable @next/next/no-img-element */
 import '../globals.css' 
 import Link from 'next/link'
 
