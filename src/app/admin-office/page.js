@@ -1,6 +1,5 @@
 
 import Link from "next/link"
-import '../globals.css'
 export default function AdminOffice() {
 
 
@@ -40,7 +39,6 @@ export default function AdminOffice() {
           </div>
           </div>
       </section>
-        <script src="../JavaScript/script.js"></script>
   </body>
     )
 }
