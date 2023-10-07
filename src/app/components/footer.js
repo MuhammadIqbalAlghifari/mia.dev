@@ -49,7 +49,7 @@ export default function Footer(){
 
                     <div className="footer-center">
 
-                        <Link href="https://www.instagram.com/bfdev_/"><img src="/next.svg" alt="" className="instagram"/></Link>
+                        <Link href="https://www.instagram.com/bfdev_/"><img src="/Instagram Black.svg" alt="" className="instagram"/></Link>
 
                         <Link href="https://wa.me/6285795635990"><img src="/whatsapp.svg" alt="" className="youtube"/></Link>
 
