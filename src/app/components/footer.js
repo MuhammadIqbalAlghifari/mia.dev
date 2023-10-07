@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 
 export default function Footer(){
@@ -48,9 +49,9 @@ export default function Footer(){
 
                     <div className="footer-center">
 
-                        <a href="https://www.instagram.com/bfdev_/"><img src="/instagram_black.svg" alt="" className="instagram"/></a>
+                        <Link href="https://www.instagram.com/bfdev_/"><img src="/instagram_black.svg" alt="" className="instagram"/></Link>
 
-                        <a href="https://wa.me/6285795635990"><img src="/whatsapp.svg" alt="" className="youtube"/></a>
+                        <Link href="https://wa.me/6285795635990"><img src="/whatsapp.svg" alt="" className="youtube"/></Link>
 
                     </div>
 

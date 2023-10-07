@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
-import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { useState, useRef, useEffect } from "react";
+
 
 function ProjectCard() {
 
@@ -45,7 +45,6 @@ function ProjectCard() {
 
                             <article className="rounded-lg bg-neutral-800 shadow-black shadow-2xl">
 
-                            <a href="/#">
                                 <img alt="Placeholder" className="block h-auto w-full rounded-t-lg" src="/musikku.png"/>
                             
 
@@ -67,7 +66,6 @@ function ProjectCard() {
                                         My personal website design about music landing page like spotify. (Only Layout)
                                     </p>
                             </footer>
-                            </a>
 
                         </article>
 
@@ -81,7 +79,6 @@ function ProjectCard() {
 
                         <article className="rounded-lg bg-neutral-800 shadow-black shadow-2xl">
 
-                            <a href="/#">
                                 <img alt="Placeholder" className="block h-auto w-full rounded-t-lg" src="/Admin Office Platinum.png"/>
                             
 
@@ -103,7 +100,6 @@ function ProjectCard() {
                                     This website was created by me to edit the assets on the platinum website
                                     </p>
                             </footer>
-                        </a>
 
                         </article>
 
@@ -115,7 +111,7 @@ function ProjectCard() {
 
                         <article className="rounded-lg bg-neutral-800 shadow-black shadow-2xl">
 
-                            <a href="https://platinum.co.id/">
+                            <Link href="https://platinum.co.id/">
                                 <img alt="Placeholder" className="block h-auto w-full rounded-t-lg" src="/Platinum.png"/>
                             
 
@@ -137,7 +133,7 @@ function ProjectCard() {
                                     I was involved in making this website, namely making animations
                                     </p>
                             </footer>
-                        </a>
+                        </Link>
 
                         </article>
                         </div>
@@ -146,7 +142,7 @@ function ProjectCard() {
 
                             <article className="rounded-lg bg-neutral-800 shadow-black shadow-2xl">
 
-                            <a href="https://anyer.itmgi.co/">
+                            <Link href="https://anyer.itmgi.co/">
                                 <img alt="Placeholder" className="block h-auto w-full rounded-t-lg" src="/anyer.png"/>
                             
 
@@ -168,7 +164,7 @@ function ProjectCard() {
                                         I was involved in making this website, namely making animations
                                     </p>
                             </footer>
-                            </a>
+                            </Link>
 
                         </article>
 
@@ -219,7 +215,7 @@ export default function Project() {
 
                 <p className="text-white text-center text-3xl mb-7 pt-10 tersembunyi" >My Jobs </p>
         
-                <h1 className="text-white text-center text-4xl md:text-4xl lg:text-5xl mb-12 tersembunyi">Recent <a className="project" href="/#">Projects</a> </h1>
+                <h1 className="text-white text-center text-4xl md:text-4xl lg:text-5xl mb-12 tersembunyi">Recent <text className="project">Projects</text> </h1>
                     
                     <ProjectCard/>
 
