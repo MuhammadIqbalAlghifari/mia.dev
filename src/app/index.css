@@ -667,27 +667,27 @@
 
   .project div#card-1.tersembunyi {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
     transition: all 1s;
   }
 
   .project div#card-2.tersembunyi {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
     transition: all 1s;
     transition-delay: 200ms;
   }
 
   .project div#card-3.tersembunyi {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
     transition: all 1s;
     transition-delay: 500ms;
   }
 
   .project div#card-4.tersembunyi {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
     transition: all 1s;
     transition-delay: 800ms;
   }
