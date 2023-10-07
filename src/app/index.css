@@ -192,6 +192,11 @@
       opacity: 1;
       transform: translateX(0%);
   }
+
+  .hero .hero-left:hover {
+    scale: 1.03;
+    transition: all 400ms;
+    }
   
   .hero-right.tersembunyi {
       opacity: 0;
@@ -283,6 +288,11 @@
       transform: translateX(-12%);
       transition: all 1s;
   }
+
+  .about .about-left-upper:hover {
+    scale: 1.03;
+    transition: all 400ms;
+}
   
   .about .about-right-upper.tersembunyi {
       opacity: 0;
@@ -582,6 +592,21 @@
       opacity: 1;
       transform: translateX(0%);
   }
+
+  .card .left:hover {
+    scale: 1.03;  
+    transition: all 500ms;  
+}
+
+.card .center.tersembunyi.slide-card:hover {
+    scale: 1.03;  
+    transition: all 500ms;
+}
+
+.card .right.tersembunyi.slide-card:hover {
+    scale: 1.03;  
+    transition: all 500ms;
+}
   
   .service .card .center.tersembunyi {
     background: black;
@@ -642,41 +667,69 @@
 
   .project div#card-1.tersembunyi {
     opacity: 0;
+    transform: translateY(15%);
     transition: all 1s;
   }
 
   .project div#card-2.tersembunyi {
     opacity: 0;
+    transform: translateY(15%);
     transition: all 1s;
     transition-delay: 200ms;
   }
 
   .project div#card-3.tersembunyi {
     opacity: 0;
+    transform: translateY(15%);
     transition: all 1s;
     transition-delay: 500ms;
   }
 
   .project div#card-4.tersembunyi {
     opacity: 0;
+    transform: translateY(15%);
     transition: all 1s;
     transition-delay: 800ms;
   }
 
   .project div#card-1.tersembunyi.slide-card {
     opacity: 1;
+    transform: translateY(0%);
   }
 
   .project div#card-2.tersembunyi.slide-card {
     opacity: 1;
+    transform: translateY(0%);
   }
 
   .project div#card-3.tersembunyi.slide-card {
     opacity: 1;
+    transform: translateY(0%);
   }
 
   .project div#card-4.tersembunyi.slide-card {
     opacity: 1;
+    transform: translateY(0%);
+  }
+
+  .project div#card-1:hover {
+    scale: 1.03;
+    transition: all 500ms;
+  }
+
+  .project div#card-2:hover {
+    scale: 1.03;
+    transition: all 500ms;
+  }
+
+  .project div#card-3:hover {
+    scale: 1.03;
+    transition: all 500ms;
+  }
+
+  .project div#card-4:hover {
+    scale: 1.03;
+    transition: all 500ms;
   }
 
   /* my jobs end */

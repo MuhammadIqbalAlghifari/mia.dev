@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import TypewriterComponent from "typewriter-effect";
 
 export default function Hero() {
 
@@ -51,7 +52,16 @@ export default function Hero() {
 
                     <h1>Muhammad Iqbal</h1>
 
-                    <h2>Front End Developer</h2>
+                    <h2><TypewriterComponent options={{
+                      strings: [
+                        'A React.js Developer', 
+                        'A Next.js Developer', 
+                        'A Front End Developer'],
+                      autoStart: true,
+                      loop: true,
+                      delay: 100,
+                    }}>
+                      </TypewriterComponent></h2>
 
                     <p className='lower'>With knowledge in web development and design, I after <br/> the best project resulting in quality work.</p>
                     <a href='/#' className='btn1'>Let's Talk</a>

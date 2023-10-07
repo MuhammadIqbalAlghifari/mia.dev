@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import TypewriterComponent from "typewriter-effect";
 
 export default function Footer(){
 
@@ -43,7 +44,17 @@ export default function Footer(){
 
                         <h1>MIA Dev</h1>
 
-                        <p>Front end Developer</p>
+                        <p><TypewriterComponent options={{
+                          strings: [
+                            'A React.js Developer',
+                            'A Next.js Developer',
+                            'A Front End Developer',
+                          ],
+                          autoStart: true,
+                          loop: true,
+                          delay: 100,
+                        }}>
+                          </TypewriterComponent></p>
 
                     </div>
 
