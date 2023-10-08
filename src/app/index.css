@@ -138,7 +138,7 @@
     font-size: clamp(1rem, 8vw , 2rem);
   }
   
-  header .logo a {
+  header .logo text {
     color: var(--backround-button);
   }
   
