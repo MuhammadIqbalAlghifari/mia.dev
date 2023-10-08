@@ -48,9 +48,22 @@ export default function Hero() {
 
                 <div className='hero-right tersembunyi'>
 
-                    <p className='upper'>Hello,<a href="/#">I'm</a></p>
+                    <p className='upper'><TypewriterComponent options={{
+                      strings: ['Hello,'],
+                      autoStart: true,
+                      loop: false,
+                    }}></TypewriterComponent>
+                    <a href="/#"><TypewriterComponent options={{
+                      strings: ["I'm"],
+                      autoStart: true,
+                      loop: false,
+                    }}></TypewriterComponent></a></p>
 
-                    <h1>Muhammad Iqbal</h1>
+                    <h1><TypewriterComponent options={{
+                      strings: ['Muhammad Iqbal'],
+                      autoStart: true, 
+                      loop: false,
+                    }}></TypewriterComponent></h1>
 
                     <h2><TypewriterComponent options={{
                       strings: [
