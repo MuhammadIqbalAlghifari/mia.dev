@@ -48,35 +48,45 @@ export default function Hero() {
 
                 <div className='hero-right tersembunyi'>
 
-                    <p className='upper'><TypewriterComponent options={{
-                      strings: ['Hello,'],
+                    <p className="upper"><TypewriterComponent options={{
+                      strings: ["Hello,<text>I'm</text>"],
                       autoStart: true,
-                      loop: false,
-                    }}></TypewriterComponent>
-                    <a href="/#"><TypewriterComponent options={{
-                      strings: ["I'm"],
-                      autoStart: true,
-                      loop: false,
-                    }}></TypewriterComponent></a></p>
+                      cursor: "",
+                      pauseFor: 86400, 
+                      delay: 50,
+                      loop: true,
+                      skipAddStyles: true,
+                    }
+                    }></TypewriterComponent></p>
 
                     <h1><TypewriterComponent options={{
-                      strings: ['Muhammad Iqbal'],
-                      autoStart: true, 
-                      loop: false,
+                      strings: ["Muhammad Iqbal"],
+                      autoStart: true,
+                      cursor: "",
+                      loop: true,
+                      delay: 100,
+                      pauseFor: 86400,
+                      skipAddStyles: true,
                     }}></TypewriterComponent></h1>
 
                     <h2><TypewriterComponent options={{
-                      strings: [
-                        'A React.js Developer', 
-                        'A Next.js Developer', 
-                        'A Front End Developer'],
+                      strings: ["A React.js Developer", "A Next.js Developer", "A Front End Developer"],
                       autoStart: true,
                       loop: true,
-                      delay: 100,
-                    }}>
-                      </TypewriterComponent></h2>
+                      deleteSpeed: 20,
+                      skipAddStyles: true,
+                      cursor: "_",
+                    }}/></h2>
 
-                    <p className='lower'>With knowledge in web development and design, I after <br/> the best project resulting in quality work.</p>
+                    <p className='lower'><TypewriterComponent options={{
+                      strings: ['With knowledge in web development and design, I after <br/> the best project resulting in quality work.'],
+                      skipAddStyles: true,
+                      autoStart: true,
+                      loop: true,
+                      delay: 10,
+                      pauseFor: 86400,
+                      cursor: "",
+                    }}></TypewriterComponent></p>
                     <a href='/#' className='btn1'>Let's Talk</a>
 
                 </div>

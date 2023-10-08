@@ -219,7 +219,7 @@
     color: white;
   }
   
-  .hero p.upper a {
+  .hero p.upper text {
     color: var(--backround-button);
     text-decoration: none;
     pointer-events: none;
