@@ -43,7 +43,7 @@ return (
 
                 <h3 className="tersembunyi">Get In Touch</h3>
 
-                <h2 className="tersembunyi">Contact Me</h2>
+                <h2 className="tersembunyi"><text style={{color: '#00da8e'}}>Contact</text> Me</h2>
 
                 <form action="https://formspree.io/f/xpzgqbrw" method="POST" id="contact-form">
 

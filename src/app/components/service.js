@@ -116,7 +116,7 @@ export default function Service() {
                     
                 <p className="upper tersembunyi">My Service</p>
 
-                <p className="lower tersembunyi">What Do I Do</p>
+                <p className="lower tersembunyi">What <text style={{color:'#00da8e'}}>Do I Do</text></p>
 
                     <ServiceCard/>
 

@@ -215,7 +215,7 @@ export default function Project() {
 
                 <p className="text-white text-center text-3xl mb-7 pt-10 tersembunyi" >My Jobs </p>
         
-                <h1 className="text-white text-center text-4xl md:text-4xl lg:text-5xl mb-12 tersembunyi">Recent <text className="project">Projects</text> </h1>
+                <h1 className="text-white text-center text-4xl md:text-4xl lg:text-5xl mb-12 tersembunyi">Latest <text className="project" style={{color: '#00da8e'}}>Projects</text> </h1>
                     
                     <ProjectCard/>
 

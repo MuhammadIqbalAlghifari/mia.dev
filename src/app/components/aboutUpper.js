@@ -47,9 +47,9 @@ export default function AboutUpper(){
 
                 <div className="about-right-upper tersembunyi">
 
-                    <p className="upper">My Intro</p>
+                    <p className="upper">My <text style={{color: '#00da8e'}}>Intro</text></p>
 
-                    <h2>About Me</h2>
+                    <h2><text style={{color: '#00da8e'}}>About</text> Me</h2>
 
                     <p className="lower">Front-end developer, i create web pages with UI User <br/> Interface, I have experience and ready <br/> to develop the best design to keep clients happy.</p>
 
