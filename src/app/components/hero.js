@@ -52,7 +52,7 @@ export default function Hero() {
                       strings: ["Hello,<text>I'm</text>"],
                       autoStart: true,
                       cursor: "",
-                      pauseFor: 86400, 
+                      pauseFor: 8640000000000000, 
                       delay: 50,
                       loop: true,
                       skipAddStyles: true,
@@ -65,7 +65,7 @@ export default function Hero() {
                       cursor: "",
                       loop: true,
                       delay: 100,
-                      pauseFor: 86400,
+                      pauseFor: 8640000000000000,
                       skipAddStyles: true,
                     }}></TypewriterComponent></h1>
 
@@ -84,7 +84,7 @@ export default function Hero() {
                       autoStart: true,
                       loop: true,
                       delay: 10,
-                      pauseFor: 86400,
+                      pauseFor: 8640000000000000,
                       cursor: "",
                     }}></TypewriterComponent></p>
                     <a href='/#' className='btn1'>Let's Talk</a>
