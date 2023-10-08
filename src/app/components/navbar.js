@@ -40,7 +40,7 @@ export default function Navbar() {
 
                     <div className='navbar'>
 
-                        <div className='logo'>Port<a href="/#">folio</a></div>
+                        <div className='logo'>Port<text>folio</text></div>
 
                         <ul>
 
