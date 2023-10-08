@@ -46,13 +46,16 @@ export default function Footer(){
 
                         <p><TypewriterComponent options={{
                           strings: [
-                            'A React.js Developer',
-                            'A Next.js Developer',
-                            'A Front End Developer',
+                            'React.js Developer',
+                            'Next.js Developer',
+                            'Front End Developer',
                           ],
                           autoStart: true,
                           loop: true,
-                          delay: 100,
+                          delay: 10,
+                          pauseFor: 4500,
+                          deleteSpeed: 10,
+                          cursor: "",
                         }}>
                           </TypewriterComponent></p>
 
