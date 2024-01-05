@@ -33,9 +33,9 @@ function ServiceCard() {
       }, [isIntersecting]);
 
     return (
-        <div className="card" ref={ref}>
+        <div className="card w-full gap-4" ref={ref}>
 
-                        <div className="left tersembunyi shadow-black shadow-2xl">
+                        <div className="left tersembunyi w-full shadow-black shadow-lg">
 
                             <img src="/card-icon-left.svg" className='inline-block mb-2' alt=""/>
 
@@ -47,7 +47,7 @@ function ServiceCard() {
 
                         </div>
 
-                        <div className="center tersembunyi shadow-black shadow-2xl">
+                        <div className="center tersembunyi w-full shadow-black shadow-lg">
 
                             <img src="/card-icon-center.svg" className='inline-block mb-2' alt=""/>
 
@@ -59,7 +59,7 @@ function ServiceCard() {
 
                         </div>
 
-                        <div className="right tersembunyi shadow-black shadow-2xl">
+                        <div className="right tersembunyi w-full shadow-black shadow-lg">
 
                             <img src="/card-icon-right.svg" className='inline-block mb-2' alt=""/>
 

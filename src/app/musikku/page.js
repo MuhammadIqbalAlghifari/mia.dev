@@ -36,8 +36,8 @@ export default function Musikku() {
           </div>
           <div className="flex items-center justify-between container mx-auto my-10">
             <Link href='/'>
-              <button className="flex mt-10 text-white tersembunyi" id="card-3">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-6">
+              <button className="flex mt-10 text-white tersembunyi group transition-all" id="card-3">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-6 duration-500 group-hover:-translate-x-2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
                 </svg>
                 <p className="ml-2">Back To <text style={{color: '#00da8e'}}>Portfolio</text> </p>

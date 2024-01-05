@@ -11,6 +11,7 @@ function ProjectCard() {
             name: 'Musikku',
             project: '(Personal Project)',
             description: 'My personal website design about music landing page like spotify. (Under Development)',
+            linkView: '/musikku',
             linkDemo: '#Project',
             linkGithub: '#Project',
         },
@@ -19,6 +20,7 @@ function ProjectCard() {
             name: 'Admin Office - Platinum',
             project: '(Company Project)',
             description: 'This website was created by me to edit the assets on the platinum website. (Only Layout)',
+            linkView: '/admin-office',
             linkDemo: 'https://muhammadiqbalalghifari.github.io/backofficeplatinum.co.io/page-sub-domain/backoffice-home.html',
             linkGithub: 'https://github.com/MuhammadIqbalAlghifari/backofficeplatinum.co.io',
         },
@@ -27,6 +29,7 @@ function ProjectCard() {
             name: 'Platinum (Only Animation)',
             project: '(Company Project)',
             description: 'I was involved in making this website, namely making animations',
+            linkView: '/platinum',
             linkDemo: 'anyer.itmgi.co',
             linkGithub: 'https://github.com/MuhammadIqbalAlghifari/platinum.git.io',
         },
@@ -35,6 +38,7 @@ function ProjectCard() {
             name: 'Anyer Wonderland (Only Animation)',
             project: '(Company Project)',
             description: 'I was involved in making this website, namely making animations',
+            linkView: '/anyer',
             linkDemo: 'https://anyerwonderland.com',
             linkGithub: '#Project',
         },
@@ -43,8 +47,18 @@ function ProjectCard() {
             name: 'Knockout Kings',
             project: '(Personal Project)',
             description: 'Personal project about Martial arts, included payment gateway, auth and simple online shop.',
+            linkView: '/knockout-kings',
             linkDemo: 'https://knockoutkings.vercel.app',
             linkGithub: 'https://github.com/MuhammadIqbalAlghifari/knockoutkings',
+        },
+        {
+            image: '/manchester united.png',
+            name: 'Manchester United',
+            project: '(Personal Project)',
+            description: 'Knockout Kings clone about my favourite club Manchester United. Added some changes in UI',
+            linkView: '/manchester-united',
+            linkDemo: 'https://manchesterunited.vercel.app',
+            linkGithub: 'https://github.com/MuhammadIqbalAlghifari/manchesterunited',
         },
     ]
 
@@ -117,6 +131,16 @@ function ProjectCard() {
                                     <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
                                 </svg>
                                 Demo
+                            </button>
+                        </Link>
+
+                        <Link href={project.linkView}>
+                            <button className="bg-[#1c1c1c] p-2 rounded-md text-center md:gap-3 gap-2 text-base text-white flex justify-between items-center" style={{fontFamily: 'Futura Md'}}>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="md:h-8 md:w-8 h-5 w-5">
+                                    <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                    <path fillRule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clipRule="evenodd" />
+                                </svg>
+                                View
                             </button>
                         </Link>
 
